@@ -5,11 +5,11 @@ const SideBar = () => {
   const state = useSideBarStore((state) => state)
 
   return (
-    <div className="h-screen">
+    <div className='max-h-screen'>
       <MenuOutlined
         onClick={() => state.setIsSideBarVisible(!state.isSideBarVisible)}
       />
-      {state.isSideBarVisible && <div className="text-red-900">opened</div>}
+      {state.isSideBarVisible && <div className='text-red-900'>opened</div>}
     </div>
   )
 }

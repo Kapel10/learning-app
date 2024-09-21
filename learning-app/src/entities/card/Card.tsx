@@ -9,7 +9,7 @@ interface CardProps {
 const Card: FC<CardProps> = ({ title, metric }) => {
   return (
     <div
-      className="border-[1px] border-black"
+      className='border-[1px] border-black'
       style={{ width: metric.width, height: metric.height }}
     >
       {title}

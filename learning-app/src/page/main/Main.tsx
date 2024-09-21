@@ -2,9 +2,9 @@ import SideBar from '../../widgets/sidebar/SideBar.tsx'
 
 const Main = () => {
   return (
-    <div className="w-screen h-screen">
+    <div>
       <SideBar />
-      <div className="text-yellow-500">some text</div>
+      <div className='text-yellow-500'>some text</div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import {lazy} from "react";
+import { lazy } from 'react'
 
-const Main = lazy(() => import('./Main.tsx'));
+const Main = lazy(() => import('./Main.tsx'))
 
-export default Main;
+export default Main
