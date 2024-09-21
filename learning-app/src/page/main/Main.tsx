@@ -1,9 +1,9 @@
-import SideBar from '../../widgets/sidebar/SideBar.tsx'
+import Sidebar from '../../widgets/sidebar/Sidebar.tsx'
 
 const Main = () => {
   return (
-    <div>
-      <SideBar />
+    <div className='flex'>
+      <Sidebar />
       <div className='text-yellow-500'>some text</div>
     </div>
   )
